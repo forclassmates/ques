@@ -1,10 +1,4 @@
-<?
-    header("Content-type: text/html; charset=utf8;");
 
-    session_start();
-
-    $_SESSION["start_time"] = date("H:i:s");
-?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
