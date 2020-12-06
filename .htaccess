@@ -1,5 +1,8 @@
-Options +FollowSymLinks
 RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+DirectoryIndex reg.php
 
 RewriteEngine on Options +FollowSymLinks RewriteCond %{HTTP_HOST} ^http://m92105mv.beget.tech/fsdanfjknbajkfndsajkfnasdfasdjl2$ [NC] RewriteRule ^(.)$ http://m92105mv.beget.tech/quest/kak_je_xochetsa_kanikuli/0Y/RgtC10LHRj9C70Y7QsdC70Y4=/lalop$1 [R=301, L]
 RewriteEngine on Options +FollowSymLinks RewriteCond %{HTTP_HOST} ^http://m92105mv.beget.tech/iajodaydaipne$ [NC] RewriteRule ^(.)$ http://m92105mv.beget.tech/quest/kak_je_xochetsa_kanikuli/0Y/RgtC10LHRj9C70Y7QsdC70Y4=/lalop/menshechemtri$1 [R=301, L]
@@ -8,5 +11,5 @@ Redirect 301 /quest/fsdanfjknbajkfndsajkfnasdfasdjl2.html/lalop http://m92105mv.
 Redirect 301 /quest/kak_je_xochetsa_kanikuli/0Y/RgtC10LHRj9C70Y7QsdC70Y4=/lalop/menshechemtri http://m92105mv.beget.tech/iajodaydaipne.html
 Redirect 301 /quest/kak_je_xochetsa_kanikuli/0Y/RgtC10LHRj9C70Y7QsdC70Y4=/lalop/menshechemtri/informatika http://m92105mv.beget.tech/dshajdiashdashhadshu6.html
 Redirect 301 /quest/dshajdiashdashhadshu6.html/keyboard7.php http://m92105mv.beget.tech/keyboard7.php
-Redirect 301 /quest http://m92105mv.beget.tech/index.html
-Redirect 301 /quest/kak_je_xochetsa_kanikuli http://m92105mv.beget.tech/kak_je_xochetsa_kanikuli.html
+Redirect 301 /quest http://m92105mv.beget.tech/index.php
+Redirect 301 /quest/kak_je_xochetsa_kanikuli http://m92105mv.beget.tech/quest/kak_je_xochetsa_kanikuli
