@@ -1,0 +1,12 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+DirectoryIndex reg.php
+
+Redirect permanent /quest  http://m92105mv.beget.tech/index.php
+
+RewriteCond %{QUERY_STRING} ^quest$ [NC]
+RewriteRule ^period/$ http://m92105mv.beget.tech/index.php [L,R=301]
+RewriteCond %{HTTP_HOST} ^http://m92105mv.beget.tech/quest$ [NC]
+
+RewriteRule ^(.*)$ http://m92105mv.beget.tech/index.php$1 [R=301,L] 
