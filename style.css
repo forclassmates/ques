@@ -1,0 +1,50 @@
+.navbar {
+    background: linear-gradient(to top, #6975dd, #7355b0);
+}
+body {
+    background: url(../img/background.png) no-repeat;
+    background-size: cover;
+    height: 2500px;
+}
+.bg-info {
+    background: linear-gradient(to top, #6975dd, #7355b0)!important;
+}
+input.text-light::placeholder {
+    color: white;
+}
+.ml-6 {
+    margin-left: 7rem;
+}
+.pt-6 {
+    padding-top: 7rem;
+}
+.btn-light {
+    background: linear-gradient(to top, #7355b0, #6975dd)!important;
+    border-color: #6975dd!important;
+    color: #a3f383;
+    font-weight: bold;
+}
+.book {
+    float: left;
+}
+.desc {
+    margin-left: 110px;
+}
+section {
+    line-height: 1.2;
+    font-size: 1em;
+}
+.rus, .lit {
+    width: 343px;
+    margin-left: 1em;
+    float: left;
+}
+.author {
+    font-size: .95em!important;
+}
+.name-book {
+    color:#1c759f;
+}
+.mt-6 {
+    margin-top: 250px;
+}
